@@ -416,4 +416,6 @@ def balance():
     libro.sheets('Saldo Mensual').range('A2').options(pd.DataFrame, expand='table').value = saldo
     
 
+
+
     
